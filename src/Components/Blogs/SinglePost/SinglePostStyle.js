@@ -10,7 +10,7 @@ const BlogContainer = styled.div`
     grid-template-columns: repeat(2, 1fr);
   }
   @media (max-width: 735px) {
-    grid-template-columns: 400px;
+    grid-template-columns: 1fr;
     justify-content: center;
   }
 `;

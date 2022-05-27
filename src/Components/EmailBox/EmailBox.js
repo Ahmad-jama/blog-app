@@ -58,7 +58,9 @@ const Box = styled.div`
       padding: 0.5rem;
     }
   }
-
+  button {
+    color: white;
+  }
   input {
     border: none;
     margin: 0 19px;
@@ -76,11 +78,20 @@ const Box = styled.div`
       display: none;
     }
   }
-  @media (max-width: 750px) {
+  @media (max-width: 650px) {
     p,
     form {
-      width: 100%;
       margin: 1rem 0;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+    input {
+      border: 1px solid #000;
+      padding: 10px 15px;
+      margin: 1rem 0;
+      border-radius: 13px;
     }
   }
 `;
